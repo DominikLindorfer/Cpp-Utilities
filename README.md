@@ -1,6 +1,6 @@
 # Cpp-Utilities
 
-My simplistic collection of C++ helper-functions that should make life easier.
+A simplistic collection of C++ helper-functions that should make life easier.
 
 Functions added so far:
 
