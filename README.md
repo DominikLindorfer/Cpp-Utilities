@@ -1,4 +1,4 @@
-# Cpp-Utilities
+# C++ Utilities
 
 A simplistic collection of C++ helper-functions that should make life easier.
 
