@@ -9,6 +9,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+//-----The data-type of the step is used for the data-type of the vector-----
+
 template <typename start_type, typename stop_type, typename step_type>
 vector<step_type> range(start_type start, stop_type stop, step_type step){
   if (step == step_type(0)){
