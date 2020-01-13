@@ -86,3 +86,24 @@ template<typename... Tp> ostream& operator <<(ostream& out, const std::tuple<Tp.
   out << stringval(t);
   return out;
 }
+
+//-----Unordered_Map-----
+//-----Output unordered_map to ofstream-----
+template<typename K, typename T>
+ostream& operator<< (ostream& out, unordered_map<K, T>& umap) {
+	out << "{";
+
+	for(auto it = umap.begin(); it != umap.end(); it++){
+
+		if(next(it) == umap.end()){
+			out << "{" << it -> first << ", " << it -> second << "}";
+		}
+		else{
+			out << "{" << it -> first << ", " << it -> second << "}, ";
+		}
+	}
+
+    out << "}";
+    return out;
+}
+
