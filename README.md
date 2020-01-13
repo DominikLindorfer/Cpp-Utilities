@@ -9,3 +9,5 @@ Functions added so far:
 * **tuple-cout**:   Overload ofstream operator to pretty print content of std::tuple
 
 * **range**:        Implementation of Python-like range operator
+
+* **unordered_map-cout**:  Overload ofstream operator to pretty print content of std::unordered_map
