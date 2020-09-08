@@ -115,3 +115,8 @@ template <typename vec> void move_element(vec& v, size_t oldIndex, size_t newInd
         std::rotate(v.begin() + oldIndex, v.begin() + oldIndex + 1, v.begin() + newIndex + 1);
 }
 
+//-----Example: Using a Boost-Vector and moving Element 1 to position 4-----
+//	Vektor<int> v;
+//	vec_append(v, { 3, 4, 5, 6, 7, 8, 9  });
+//	move_element(v, 1, 4);
+//	cout << v << endl;
